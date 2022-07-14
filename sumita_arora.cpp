@@ -120,5 +120,6 @@ int main(){
     int i , j , flag=1;
     for(i = 0 , j=len-1;i<len/2;i++,j--);
     
-}
+
 */
+
