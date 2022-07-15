@@ -116,6 +116,7 @@ int main(){
     cin.getline(string,size+1);
 
     //loop to find the length of the string 
+// the string ends with a \0 so one extra space is required 
     for(int len=0; string[len]!='\0';len++);
     int i , j , flag=1;
     for(i = 0 , j=len-1;i<len/2;i++,j--);
